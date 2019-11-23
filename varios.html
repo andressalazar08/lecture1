@@ -29,6 +29,36 @@
 <!--este parrafo está relaccionado con un id-->
     <h1 id="seccion1">un parrafo con sección</h1>
 
+
+
+    <form>
+
+        <div>
+<input name="nombre" type="text" placeholder="Nombre Please">
+<input name="password" type="password" placeholder="Password Please">
+
+        </div>
+
+        <div>
+            ¿Cuál es tu color favorito?
+            <!--se deja el mismo nombre para hacer una selección única entre las opciones de color-->
+            <input type="radio" name="color" value="verde">Verde
+            <input type="radio" name="color" value="rojo"> rojito
+            <input type="radio" name="color" value="azul"> azulito
+
+        </div>
+
+        <div>
+            <input name="listado" list="universidades" placeholder="escoja una universidad">
+            <datalist id="universidades">
+                <option value="Univalle"></option>
+                <option value="USC"></option>
+                <option value="UAO"></option>
+            </datalist>
+        
+
+        </div>
+    </form>
 </body>
 
 
